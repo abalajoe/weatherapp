@@ -6,8 +6,7 @@
   (:gen-class)
   (:require [clojure.string :as clstr]))
 
-(def weather-file "/Users/abala/Downloads/weather_test1.dat")
-;(def weather-file (System/getProperty "weather_file"))
+(def weather-file (System/getProperty "weather_file"))
 
 (defn calculate-spread
   "Function calculates spread for all the days"
@@ -51,5 +50,3 @@
     (do ;; file does not exist
       (println "File " weather-file " does not exist") ;; log error
       (System/exit 1)))) ;; terminate application -- erroneous termination
-
-;(-main)
