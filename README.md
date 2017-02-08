@@ -16,7 +16,7 @@ Now you can run the program by executing the below command:
     
     sudo ./startup.sh
     
-Alternatively (without using startup.sh), open the command prompt, navigate to the run folder and execute the below commands:
+Alternatively (without using startup.sh), open the terminal, navigate to the run folder and execute the below commands:
     
      sudo chmod +x startup.sh
      java -Dweather_file=weather.dat -jar weather.jar
@@ -29,6 +29,8 @@ For windows based users, navigate to the run folder, open the startup.bat file a
 Alternatively (without using startup.bat), open the command prompt, navigate to the run folder and execute the below command:
     
     java -Dweather_file=weather.dat -jar weather.jar
+    
+NB: You must have Java installed in your computer to run the application.
     
 
 ## License
