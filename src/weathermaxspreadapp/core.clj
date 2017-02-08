@@ -6,6 +6,7 @@
   (:gen-class)
   (:require [clojure.string :as clstr]))
 
+;; Gets the system property (weather file) indicated by the specified key
 (def weather-file (System/getProperty "weather_file"))
 
 (defn calculate-spread
