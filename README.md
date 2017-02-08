@@ -4,7 +4,11 @@ A Clojure library designed to calculate the difference between maximum and minim
 
 ## Usage
 
-Download the project into your local computer and navigate to the run folder. For UNIX based users, open the terminal, navigate to the run folder. Next, make the start script executable by executing the below command: 
+Download the project into your local computer. Alternatively you can clone the project by opening a Linux terminal (or Git BASH emulator for Windows) and run the below command:
+
+    git clone https://github.com/abalajoe/weatherapp
+
+For UNIX based users, open the terminal, navigate to the run folder inside the project folder. Next, make the start script executable by executing the below command: 
 
     sudo chmod +x startup.sh 
     
