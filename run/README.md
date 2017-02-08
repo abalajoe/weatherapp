@@ -1,21 +1,19 @@
 This README file explains how to run the weather program on the command line.
 
-This program is targeted for two platforms, UNIX and Windows.
+For UNIX based users, open the terminal, navigate to the run folder. Next, make the start script executable by executing the below command:
 
-1. UNIX Platform
-	To run the program in a UNIX platform do as follows:
-		a. copy weather.jar, weather.dat and startup.sh files in the same folder.
-		b. Open a Linux terminal and navigate to the folder.
-		c. Execute the below command in the terminal:
-	
-			./startup.sh
-			
-		
-2. Windows platform
-	To run the program in a linux platform do as follows:
-		a. copy weather.jar, weather.dat and startup.bat files in the same folder.
-		b. Open a Windows command prompt and navigate to the folder.
-		c. Execute the below command in the command prompt:
-		
-			startup.bat
+sudo chmod +x startup.sh
+Now you can run the program by executing the below command:
+
+sudo ./startup.sh
+Alternatively (without using startup.sh), open the command prompt, navigate to the run folder and execute the below commands:
+
+ sudo chmod +x startup.sh
+ java -Dweather_file=weather.dat -jar weather.jar
+For windows based users, navigate to the run folder, open the startup.bat file and edit the Java path to suit your computer's Java path. Next, open the command prompt, navigate to the run folder and execute the below command:
+
+startup.bat
+Alternatively (without using startup.bat), open the command prompt, navigate to the run folder and execute the below command:
+
+java -Dweather_file=weather.dat -jar weather.jar
 		
